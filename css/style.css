@@ -517,6 +517,36 @@ h6,
    {
      width: 100%;
    }
+   .container-fluid.py-5.bg-primary.hero-header.mb-5
+   {
+      height: 914px !important;
+   }
+
+   .hero-header {
+    background: url(../img/bg-dot.png), url(../img/bg-dot.png), url(../img/bg-round.png), url(../img/bg-tree.png), url(../img/bg-bottom-hero.png);
+    background-position: 10px 10px, bottom 300px right 10px, left 55% top -1px, left 45% bottom -1px, center bottom -1px;
+    background-repeat: no-repeat;
+    background-size: auto, auto, auto, auto, 100% auto;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px)
+{
+
+  .container-fluid.py-5.bg-primary.hero-header.mb-5
+   {
+      height: 908px !important;
+   }
+  .hero-header {
+    background: url(../img/bg-dot.png), url(../img/bg-dot.png), url(../img/bg-round.png), url(../img/bg-tree.png), url(../img/bg-bottom-hero.png);
+    background-position: 10px 10px, bottom 300px right 10px, left 55% top -1px, left 45% bottom -1px, center bottom -2px;
+    background-repeat: no-repeat;
+    background-size: auto, auto, auto, auto, 100% auto;
+  }
+  .row.g-5.py-5.hero-header-top-section
+  {
+    margin-top: -136px !important;
+  }
 }
 
 @media only screen and (max-width: 767px) and (min-width: 473px)
@@ -536,6 +566,7 @@ h6,
    {
     width: 100% !important;
    }
+  
 }
 
 @media only screen and (max-width: 472px) and (min-width: 347px)
@@ -547,6 +578,10 @@ h6,
     height: 30px !important;
     border-radius: 39px !important;
 
+   }
+   .team-member-image
+   {
+     width: 60% !important;
    }
   
 }
@@ -560,6 +595,10 @@ h6,
     height: 26px !important;
     border-radius: -10px !important;
 
+   }
+   .team-member-image
+   {
+     width: 60% !important;
    }
   
 }
