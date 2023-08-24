@@ -538,6 +538,26 @@ h6,
    }
 }
 
+@media only screen and (max-width: 472px) and (min-width: 200px)
+  {
+   .team-member-image
+   {
+     width: 70%;
+   }
+   .btn.btn-outline-primary.btn-square.me-3
+   {
+    width: 49px !important;
+    height: 30px !important;
+    border-radius: 39px !important;
+
+   }
+   .testimonial-item.bg-transparent.border.rounded.text-white.p-4
+   {
+    width: 100% !important;
+   }
+}
+
+
 
 
 
